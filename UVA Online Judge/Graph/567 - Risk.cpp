@@ -63,7 +63,6 @@ int main()
               cin>>a>>b;
               bfs(a,b);
               printf("%2d to %2d: %d\n",a,b,dist[b]);
-
             }
             cout<<endl;
             memset(graph,0,sizeof(graph));
